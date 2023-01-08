@@ -1,4 +1,4 @@
-# Publisher/Subscriber Java App with AWS SQS
+# Publisher/Consumer Java App with AWS SQS
 
 This is a simple project to use SQS in some manner.
 
