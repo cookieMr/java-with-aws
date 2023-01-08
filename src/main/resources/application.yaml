@@ -5,4 +5,5 @@ spring:
 mr:
   cookie:
     publisher-fix-rate: 2000
+    consumer-fix-rate: 2000
     queue-name: pub-sub-java-q
