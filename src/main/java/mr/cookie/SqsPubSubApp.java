@@ -2,10 +2,14 @@ package mr.cookie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
+@EnableScheduling
 @SpringBootApplication
-public class SqsPublishedApp {
+public class SqsPubSubApp {
+
     public static void main(String[] args) {
-        SpringApplication.run(SqsPublishedApp.class, args);
+        SpringApplication.run(SqsPubSubApp.class, args);
     }
+
 }

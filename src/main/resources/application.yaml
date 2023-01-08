@@ -1,3 +1,8 @@
 spring:
   main:
     banner-mode: "off"
+
+mr:
+  cookie:
+    publisher-fix-rate: 2000
+    queue-name: pub-sub-java-q
