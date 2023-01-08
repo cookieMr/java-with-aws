@@ -32,6 +32,7 @@ public class ConsumerService {
 
                     msgToDelete.add(DeleteMessageBatchRequestEntry.builder()
                             .id(message.messageId())
+                            .receiptHandle(message.receiptHandle())
                             .build());
                 });
 
